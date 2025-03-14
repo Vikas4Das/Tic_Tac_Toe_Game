@@ -2,6 +2,9 @@
 
 This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players to play alternately until one wins or the game ends in a draw.
 
+## Live Demo
+Play the game online: https://vikas04das.github.io/Tic_Tac_Toe_Game/
+
 ## Features
 - Interactive and responsive design
 - Two-player mode
@@ -18,7 +21,3 @@ This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. The gam
 - HTML
 - CSS
 - JavaScript
-
-
-## Live Demo
-Play the game online: https://vikas04das.github.io/Tic_Tac_Toe_Game/
