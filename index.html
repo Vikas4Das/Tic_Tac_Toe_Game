@@ -7,27 +7,36 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
+
+    <!-- Winner Message Container -->
     <div class="msg-container hide">
-        <p id="msg">Winner</p>
-        <button class="new-btn">New Game</button>
+        <p id="msg">🎉 Winner 🎉</p>
+        <button class="new-btn">Play Again</button>
     </div>
+
     <main>
-        <h1>Tic Tac Toe</h1>
+        <!-- Animated Title -->
+        <h1 class="title">Tic Tac Toe <span>🔥</span></h1>
+
+        <!-- Game Board Container -->
         <div class="container">
-         <div class="game">
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-         </div>
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
         </div>
+
+        <!-- Reset Button -->
         <button class="reset">Reset Game</button>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
